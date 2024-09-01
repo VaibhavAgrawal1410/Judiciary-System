@@ -16,7 +16,7 @@ const port = process.env.PORT || 5000;
 // const seed = require('./seeding');
 // const Exercise = require("./models/exercise.model");
 
-const MONGODB_URL = "mongodb://127.0.0.1:27017/judiciary-information-system";
+const MONGODB_URL = "mongodb+srv://manju1001agarwal:Vaibhav123@blogapi.prw17.mongodb.net/?retryWrites=true&w=majority&appName=BlogAPI";
 mongoose
   .connect(MONGODB_URL, {
     // useNewUrlParser: true,
